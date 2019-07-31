@@ -73,12 +73,4 @@ class SkipList:
         return "->".join(values)
 
 
-if __name__ == "__main__":
-    l = SkipList()
-    for i in range(10):
-        l.insert(i)
-    print(l)
-    p = l.find(7)
-    print(p._data)
-    l.delete(3)
-    print(l)
+
